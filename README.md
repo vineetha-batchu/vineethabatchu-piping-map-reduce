@@ -41,4 +41,5 @@ This chart shows the sales Globally in various genre's.
 Among the 10 Genre's, Action has the most sales and puzzle has least sales.
 ![global-sale image](top10.png)
 
-
+## Instructions to Execute
+cat vgsales.csv | python mapper.py | sort | python reducer.py > batchu.txt
